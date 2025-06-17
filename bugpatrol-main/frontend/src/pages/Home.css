@@ -1,0 +1,215 @@
+/* Hero Section Styles */
+.hero-section {
+    background-color:#0F77FF;
+    color: white;
+    padding: 80px 0;
+    position: relative;
+  }
+  
+  .hero-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .hero-description {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+  }
+  
+  .hero-buttons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .report-issue-btn {
+    border-radius: 25px;
+    padding: 10px 25px;
+    font-weight: 500;
+  }
+  
+  .join-community-btn {
+    border-radius: 25px;
+    padding: 10px 25px;
+    font-weight: 500;
+    border: 2px solid white;
+  }
+  
+  .hero-image {
+    max-width: 60%;
+    height: auto;
+
+  }
+  
+  /* Features Section Styles */
+  .features-section {
+    padding: 80px 0;
+    background-color: white;
+  }
+  
+  .section-title {
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .feature-card {
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0.05, 0, 0, 0.25);
+    border: none;
+    padding: 20px;
+    height: 100%;
+    transition: transform 0.3s;
+  }
+  
+  .feature-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .feature-icon {
+    font-size: 2rem;
+    color: #2262EF;
+    margin-bottom: 15px;
+  }
+  
+  .feature-title {
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  
+  .feature-description {
+    color: #666;
+  }
+  
+  /* How It Works Section Styles */
+  .how-it-works-section {
+    padding: 80px 0;
+    background-color: #dde8fc;
+  }
+  
+  .step-number {
+    width: 60px;
+    height: 60px;
+    background-color: #2262EF;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0 auto 20px;
+  }
+  
+  .step-title {
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .step-description {
+    color: #666;
+  }
+  
+  /* Join Community Section Styles */
+  .join-community-section {
+    padding: 75px 0;
+    background-color: white;
+    
+  }
+  
+  .user-type-card {
+    background-color: #f7faff;
+    border-radius: 10px;
+    padding: 30px;
+    height: 100%;
+  }
+  
+  .user-type-title {
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .benefit-list {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 30px;
+  }
+  
+  .benefit-list li {
+    padding-left: 30px;
+    margin-bottom: 15px;
+    position: relative;
+  }
+  
+  .benefit-list li:before {
+    content: "✓";
+    color: #2262EF;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  
+  .user-type-btn {
+    background-color: #2262EF;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 25px;
+    font-weight: 500;
+  }
+  
+  /* Footer Styles */
+  .footer {
+    background-color: #2262EF;
+    color: white;
+    padding: 60px 0 30px;
+  }
+  
+  .footer-title {
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  .footer-description {
+    margin-bottom: 20px;
+  }
+  
+  .footer-links {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .footer-links li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-links a {
+    color: white;
+    text-decoration: none;
+    transition: opacity 0.3s;
+  }
+  
+  .footer-links a:hover {
+    opacity: 0.8;
+  }
+  
+  .contact-info {
+    margin-bottom: 10px;
+  }
+  
+  .contact-info i {
+    margin-right: 10px;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .hero-title {
+      font-size: 2rem;
+    }
+    
+    .hero-image {
+      margin-top: 30px;
+    }
+    
+    .user-type-card {
+      margin-bottom: 30px;
+    }
+  }
